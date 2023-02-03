@@ -1,0 +1,140 @@
+body {
+    background-color: #f7f8f2;
+    font-family: sans-serif;
+}
+
+h1, h2, h4 {
+    text-align: center;
+}
+
+.GSU_Link {
+    text-align: center;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    display: block;
+    margin: 25px auto;
+}
+
+table {
+    width: 81%;
+    margin: auto;
+    text-align: center;
+}
+
+caption {
+    color: #FC3F3F;
+    text-align: center;
+    font-size: 25px;
+}
+
+td, th {
+    height: 35px;
+    width: 50%;
+    border-radius: 50px;
+}
+
+.header {
+    background-color: #75f542;
+    color: #FFFFFF;
+}
+
+.row1 {
+    background-color: #eecb07;
+}
+
+.row2 {
+    background-color: #42F5DD;
+}
+
+.row3 {
+    background-color: #fc9855;
+}
+
+.box {
+    background-color: #FFFFFF;
+    width: 80%;
+    margin: 15px auto;
+    border-radius: 14px;
+    padding: 2px 0 2px 15px;
+    outline-style: solid;
+    outline-width: thin;
+    outline-color: #afafaf;
+}
+
+.hobbies, .hobbies a {
+    color: #00000a;
+}
+
+.education_dreamjob, .education_dreamjob a {
+    color: #395dff;
+}
+
+.favorite_quotes, .favorite_quotes a {
+    color: #04a525;
+}
+
+.web_interest, .web_interest a {
+    color: #ffb515;
+}
+
+a:hover {
+    color: #ff1e00;
+}
+
+span {
+    color: #ff1e00;
+    font-weight: bold;
+}
+
+hr {
+    width: 80%;
+    margin: 40px auto 40px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 25px auto;
+}
+
+.icon:hover {
+    box-shadow: 0 10px 14px 0 rgba(41, 41, 41, 0.24), 0 15px 48px 0 rgba(0, 0, 0, 0.19);
+}
+
+.resume_button {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.button {
+    background-color: #6aec6e;
+    color: rgb(53, 51, 51);
+    padding: 15px 32px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact a {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+}
