@@ -2,111 +2,235 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title> Minh Le </title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
 </head>
 
 <body>
-    <h1 title="Minh's biography">Welcome to Minh's Page</h1>
-    <div class="GSU_Link">
-        <a href="http://www.cs.gsu.edu/">GSU Computer Science Department</a>
+  <nav id="desktop-nav">
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </div>
-    <img class="avatar" src="minh.jpg" alt="minhle picture">
-    <h2>Hello! I'm <span>Minh Le</span></h2>
-    <div class="resume_button">
-        <a href="MinhResume.pdf" target="_blank" class="button">My Resume</a>
+  </nav>
+
+  <nav id="hamburger-nav">
+    <div class="logo">Minh Ha Duy Le</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
     </div>
+  </nav>
 
-    <hr>
+  <section id="profile">
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Minh Ha Duy Le</h1>
+      <p class="section__text__p2">GSU'24 | Software Developer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/MinhResume.pdf')">
+          Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+          onclick="location.href='https://www.linkedin.com/in/minh-le-4aaa3420a/'" />
+        <img src="./assets/github.png" alt="My Github profile" class="icon"
+          onclick="location.href='https://github.com/minhle28'" />
+      </div>
+    </div>
+  </section>
 
-    <table>
-        <caption>My Assignments and Projects</caption>
-        <tr class="header">
-            <th>Assigments</th>
-            <th>Projects</th>
-        </tr>
-        <tr class="row1">
-            <td><a href="https://codd.cs.gsu.edu/~mle38/WP/CW/CW00/index.html" target="_blank">Class Work 0</a></td>
-            <td></td>
-        </tr>
-        <tr class="row2">
-            <td><a href="https://codd.cs.gsu.edu/~mle38/WP/CW/CW01/home.html" target="_blank">Class Work 1</a></td>
-            <td></td>
-        </tr>
-        <tr class="row3">
-            <td><a href="https://codd.cs.gsu.edu/~mle38/WP/HW/HW1/index.html">Assignment 1</a></td>
-            <td></td>
-        </tr>
-    </table>
-
-    <hr>
-    <div class="box">
-        <div class="hobbies">
-            <h3>Hobbies</h3>
-            <ul>
-                <li><a href="https://leetcode.com/" target="_blank">Use Leetcode to improve coding skills</a></li>
-                <li><a href="https://reactnative.dev/" target="_blank">Learn React Native to build an app</a></li>
-                <li><a href="https://www.python.org//" target="_blank">Learn Python</a></li>
-            </ul>
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="./assets/about-pic.png" alt="Profile picture" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="text-container">
+          <p>
+            Minh Le is a student studying at Georgia State University. He just transferred to the main campus in August
+            2022. The primary major that he is studying in Computer Science. Currently, he attends the relevant course
+            which is Web Programming, Data Mining, and Operating System. He is interested to be a software - developer.
+            He is trying to learn how to program and get experience from his major.
+          </p>
         </div>
-    </div>
-
-    <div class="box">
-        <div class="education_dreamjob">
-            <h3>Education and Dream Job</h3>
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+            <h3>Skills</h3>
             <ul>
-                <li>Education
-                    <ul>
-                        <li><span>Forest Park</span> High School</li>
-                        <li><span>Georgia State University</span> - Perimeter College</li>
-                        <li><span>Georgia State University</span></li>
-                    </ul>
-                </li>
-                <li>Dream Job
-                    <ol>
-                        <li><span>Full-Stack Developer</span></li>
-                        <li><span>Mobile App Developer</span></li>
-                        <li><span>Software Engineer</span></li>
-                    </ol>
-                    <a href="MinhResume.pdf" target="_blank">Minh's Resume</a>
-                </li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JS</li>
+              <li>PHP</li>
+              <li>SQL</li>
+              <li>Java</li>
+              <li>C</li>
             </ul>
+          </div>
+          <div class="details-container">
+            <img src="./assets/education.png" alt="Education icon" class="icon" />
+            <h3>Education</h3>
+            <p>B.Sc. Bachelors Degree</p>
+            <p>A.Sc. Associates Degree</p>
+          </div>
         </div>
+      </div>
     </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+  </section>
 
-    <div class="box">
-        <div class="favorite_quotes">
-            <h3>Favorite Quotes</h3>
-            <ul>
-                <li>"Success is not final, failure is not fatal: it is the courage to continue that counts." - Winston Churchill</li>
-                <li>"Success is not how high you have climbed, but how you make a positive difference to the world." - RoyT. Bennett</li>
-                <li>"Believe you can and you're halfway there." - Theodore Roosevelt</li>
-            </ul>
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <br><br>
+    <div class="experience-details-container">
+      <div id="experience1">
+        <div id="job_name">
+          <button id="skillsButton" class="active">VN Accounting, Tax, & Insurance Services</button>
+          <button id="experienceButton">K&G Fashion Superstore</button>
         </div>
-    </div>
-
-    <div class="box">
-        <div class="web_interest">
-            <h3>Other Websites of Interest</h3>
-            <ul>
-                <li><a href="https://leetcode.com/" target="_blank">Leetcode</a></li>
-                <li><a href="http://w3schools.com" target="_blank">W3Schools Online Web Tutorials</a></li>
-                <li><a href="https://github.com/" target="_blank">Github</a></li>
-            </ul>
+        <div id="content">
+          <div id="skillsContent">
+            <h2>VN Accounting, Tax, & Insurance Services</h2>
+            <P>Feb 2023 - Apr 2023</P>
+            <br>
+            <p>Experienced in QuickBooks with expertise in accurately recording deposits and writing checks.</p>
+          </div>
+          <div id="experienceContent">
+            <h2>K&G Fashion Superstore</h2>
+            <p>Sep 2019 - May 2023</p>
+            <br>
+            <p>Cashier - Experienced in customer service, ensuring seamless
+              transactions through efficient use of computerized pointof-sale systems, and maintaining accurate sales
+              records.</p>
+            <p>Retailer - Experienced in stock organization, and utilizing computer
+              systems to ensure the availability of additional items in the
+              receiving department.</p>
+            <p>Receiving - Experienced in receiving, counting, and inspecting new
+              goods deliveries. Sensor the items and prepare them for
+              sale.</p>
+          </div>
         </div>
+      </div>
     </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+  </section>
 
-    <hr>
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
 
-    <h2>Contact Me</h2>
-    <h4>Currently looking for Internship.</h4>
-    <div class="contact">
-        <a href="https://www.linkedin.com/in/minh-le-4aaa3420a/" target="_blank"><img class="icon" alt="linkedin icon" src="linkedin.png"></a>
-        <a href="https://github.com/minhle28" target="_blank"><img class="icon" alt="github icon" src="github.png"></a>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-4.png" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Quiz Game</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/minhle28/Online_Shop'">
+              Github
+            </button>
+          </div>
+        </div>
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-3.png" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Jeopardy</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/minhle28/Conway-s_Game_Of_Life'">
+              Github
+            </button>
+          </div>
+        </div>
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-2.png" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Conway's Game</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/minhle28/Jeopardy_Game'">
+              Github
+            </button>
+          </div>
+        </div>
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">OnlineShop</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/minhle28/Quiz_Game'">
+              Github
+            </button>
+          </div>
+        </div>
+
+      </div>
     </div>
-    <h4>Made by Minh Le</h4>
-    <h4>@2023</h4>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+  </section>
+
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:examplemail@gmail.com">leminh9844@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com/in/minh-le-4aaa3420a/">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2023 Minh Le. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
 </body>
 
 </html>
