@@ -6,7 +6,7 @@ https://minhle28.github.io/
 
 
 ## Web Screenshots
-![portfolio](https://github.com/minhle28/minhle28.github.io/assets/114270231/f2121106-2c08-4af8-9d4f-d2efbb283066)
+![portfolio](https://github.com/minhle28/minhle28.github.io/assets/114270231/e5a1872f-98be-4b8e-b6a3-fc07d1754302)
 
 
 ## 💻 Tech Stacks
