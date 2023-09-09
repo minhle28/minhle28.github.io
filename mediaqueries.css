@@ -56,14 +56,14 @@
     padding-top: 0;
   }
 
-  #experience1 {
+  #job_experience {
     display: contents;
     justify-content: center;
     gap: 2rem;
     margin-bottom: 400px;
   }
 
-  #experience1 #content {
+  #job_experience #content {
     display: flex;
     height: 15rem;
     width: 96%;
@@ -73,7 +73,7 @@
     padding: 20px;
   }
 
-  #experience1 #job_name {
+  #job_experience #job_name {
     display: flex;
     flex-direction: row;
     gap: 1rem;
@@ -92,7 +92,7 @@
     margin-top: 10rem;
   }
 
-  #experience1 #content {
+  #job_experience #content {
     height: 18rem;
   }
 }
@@ -171,12 +171,12 @@
     margin-top: 0;
   }
 
-  #experience1 button {
+  #job_experience button {
     margin-bottom: 10px;
     padding: 10px 30px 10px 10px;
   }
 
-  #experience1 #content {
+  #job_experience #content {
     display: flex;
     height: 20rem;
     width: 96%;
@@ -199,7 +199,7 @@
     margin-bottom: 30px;
   }
 
-  #experience1 #content {
+  #job_experience #content {
     width: 93%;
     margin-bottom: 80px;
   }
@@ -213,7 +213,7 @@
     margin-bottom: 0;
   }
 
-  #experience1 #content {
+  #job_experience #content {
     height: 35rem;
     width: 88%;
   }
