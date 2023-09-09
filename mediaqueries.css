@@ -90,10 +90,11 @@
     height: 60vh;
     margin-bottom: 2rem;
     margin-top: 10rem;
-}
-#experience1 #content {
-  height: 18rem;
-}
+  }
+
+  #experience1 #content {
+    height: 18rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -210,7 +211,8 @@
     height: 55vh;
     margin: 10rem 0;
     margin-bottom: 0;
-}
+  }
+
   #experience1 #content {
     height: 35rem;
     width: 88%;
@@ -218,10 +220,10 @@
 
   .about-details-container {
     margin-top: 80px;
-}
+  }
 
-#projects .about-containers {
-  gap: 1rem;
-}
+  #projects .about-containers {
+    gap: 1rem;
+  }
 
 }

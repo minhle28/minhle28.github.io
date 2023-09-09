@@ -484,7 +484,7 @@ footer .nav-links {
   font-size: 1.5rem;
 }
 
-#experience1 {
+#job_experience {
   display: flex;
   justify-content: center;
   gap: 2rem;
@@ -492,7 +492,7 @@ footer .nav-links {
   margin-bottom: 30px;
 }
 
-#experience1 #content {
+#job_experience #content {
   display: flex;
   width: 65%;
   background-color: #ffffff;
@@ -501,16 +501,16 @@ footer .nav-links {
   padding: 20px;
 }
 
-#experience1 #job_name {
+#job_experience #job_name {
   display: flex;
   flex-direction: column;
 }
 
-#experience1 #buttons {
+#job_experience #buttons {
   gap: 1rem;
 }
 
-#experience1 button {
+#job_experience button {
   margin-bottom: 10px;
   padding: 16px 50px 14px 16px;
   background-color: rgb(243, 243, 243);
@@ -521,7 +521,7 @@ footer .nav-links {
   font-weight: bold;
 }
 
-#experience1 button::after {
+#job_experience button::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -535,12 +535,12 @@ footer .nav-links {
   transition: transform 0.5s ease-in-out;
 }
 
-#experience1 button:hover::after,
-#experience1 button.active::after {
+#job_experience button:hover::after,
+#job_experience button.active::after {
   transform: scaleX(1);
 }
 
-#experience1 #skillsContent {
+#job_experience #skillsContent {
   flex: 1;
   display: block;
 }
