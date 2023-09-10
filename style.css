@@ -2,6 +2,13 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
+:root {
+  --total-brand: 16;
+  --logo-width: 10rem;
+  --total-logo-width: calc(var(--total-brand)*var(--logo-width)*2);
+  --animation-duration: 35s;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -45,7 +52,7 @@ nav {
 }
 
 .nav-links {
-  gap: 8rem;
+  gap: 7rem;
   list-style: none;
   font-size: 1.5rem;
 }
@@ -63,11 +70,11 @@ a:hover {
   text-decoration-color: rgb(181, 181, 181);
 }
 
-.logo {
+#hamburger-nav .logo {
   font-size: 2rem;
 }
 
-.logo:hover {
+#hamburger-nav .logo:hover {
   cursor: default;
 }
 
@@ -335,9 +342,9 @@ section {
   text-align: center;
 }
 
-ul {
+.about-containers ul {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 20px;
   list-style-type: none;
   padding-top: 20px;
@@ -354,6 +361,67 @@ ul {
   width: 250px;
   margin: auto 0;
 }
+
+
+/* SKILLS SECTION */
+#skills {
+  position: relative;
+}
+
+.slider {
+  position: relative;
+  height: 10rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 6px;
+  border-radius: 10px;
+}
+
+.slider::before,
+.slider::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: var(--logo-width);
+}
+
+.slider::before {
+  left: 0;
+  background: linear-gradient(to right, #fff 0%, rgba(0, 0, 0, 0) 85%);
+}
+
+.slider::after {
+  right: 0;
+  background: linear-gradient(to left, #fff 0%, rgba(0, 0, 0, 0) 85%);
+}
+
+
+.slider ul.brands {
+  list-style-type: none;
+  width: var(--total-logo-width);
+  display: flex;
+  animation: slideleft var(--animation-duration) linear infinite;
+}
+
+.slider:hover ul.brands {
+  animation-play-state: paused;
+}
+
+@keyframes slideleft {
+  100% {
+    transform: translateX(calc(-100%/2));
+  }
+}
+
+ul.brands li.brand-logo {
+  width: var(--logo-width);
+  font-size: 2rem;
+  text-align: center;
+  margin-left: 3rem;
+}
+
 
 /* EXPERIENCE SECTION */
 

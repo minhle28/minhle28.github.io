@@ -8,6 +8,7 @@
   <title>My Portfolio</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="mediaqueries.css" />
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 </head>
 
 <body>
@@ -15,6 +16,7 @@
     <div>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -32,6 +34,7 @@
       </div>
       <div class="menu-links">
         <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
         <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
         <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
         <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
@@ -43,7 +46,7 @@
     <div class="section__text">
       <p class="section__text__p1">Hello, I'm</p>
       <h1 class="title">Minh Ha Duy Le</h1>
-      <p class="section__text__p2">GSU'24 | Software Developer</p>
+      <p class="section__text__p2">GSU'24 | Software Engineer</p>
       <div class="btn-container">
         <button class="btn btn-color-2" onclick="window.open('./assets/MinhResume.pdf')">
           Download CV
@@ -71,35 +74,57 @@
       <div class="about-details-container">
         <div class="text-container">
           <p>
-            Minh Le is a student studying at Georgia State University. He just transferred to the main campus in August
-            2022. The primary major that he is studying in Computer Science. Currently, he attends the relevant course
-            which is Web Programming, Data Mining, and Operating System. He is interested to be a software - developer.
-            He is trying to learn how to program and get experience from his major.
-          </p>
+            Minh Le is a Computer Science student at GSU who is passionate about web development and software
+            engineering. He is skilled in HTML/CSS/JS, Java, PHP, MySQL, and more. Minh is seeking an internship to
+            apply his technical skills and has experience in Data Entry and Cashier roles. He excels in accurately
+            recording financial transactions and managing point-of-sale systems. Minh is dedicated to contributing his
+            expertise to a forward-thinking tech organization. </p>
         </div>
         <div class="about-containers">
           <div class="details-container">
             <img src="./assets/experience.png" alt="Experience icon" class="icon" />
-            <h3>Skills</h3>
+            <h3>Awards</h3>
             <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JS</li>
-              <li>PHP</li>
-              <li>SQL</li>
-              <li>Java</li>
-              <li>C</li>
-              <li>Git</li>
+              <li>4 President's List</li>
+              <li>STEM</li>
+              <li>1 Dean's List</li>
             </ul>
           </div>
           <div class="details-container">
             <img src="./assets/education.png" alt="Education icon" class="icon" />
             <h3>Education</h3>
-            <p>B.Sc. Bachelors Degree</p>
             <p>A.Sc. Associates Degree</p>
+            <p>B.Sc. Bachelors Degree</p>
           </div>
         </div>
       </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#skills'" />
+  </section>
+
+  <section id="skills">
+    <p class="section__text__p1">Explore My Technical</p>
+    <h1 class="title">Skills</h1>
+    <br><br>
+    <div class="slider">
+      <ul class="brands">
+        <li class="brand-logo"><iconify-icon icon="logos:html-5" width="60" height="60"></iconify-icon></li>
+        <li class="brand-logo"><iconify-icon icon="logos:css-3" width="60" height="60"></iconify-icon></li>
+        <li class="brand-logo"><iconify-icon icon="vscode-icons:file-type-js-official" width="60" height="60"></iconify-icon></li>
+        <li class="brand-logo"><iconify-icon icon="logos:java" width="60" height="60"></iconify-icon></li>
+        <li class="brand-logo"><iconify-icon icon="devicon:c" width="60" height="60"></iconify-icon></li>
+        <li class="brand-logo"><iconify-icon icon="devicon:php" width="60" height="60"></iconify-icon></li>
+        <li class="brand-logo"><iconify-icon icon="logos:python" width="60" height="60"></iconify-icon></li>
+        <li class="brand-logo"><iconify-icon icon="skill-icons:react-dark" width="60" height="60"></iconify-icon></li>
+        <li class="brand-logo"><iconify-icon icon="logos:mysql" width="60" height="60"></iconify-icon></li>
+        <li class="brand-logo"><iconify-icon icon="logos:git" width="60" height="60"></iconify-icon></li>
+        <li class="brand-logo"><iconify-icon icon="logos:firebase" width="60" height="60"></iconify-icon></li>
+        <li class="brand-logo"><iconify-icon icon="logos:xampp" width="60" height="60"></iconify-icon></li>
+        <li class="brand-logo"><iconify-icon icon="skill-icons:bootstrap" width="60" height="60"></iconify-icon></li>
+        <li class="brand-logo"><iconify-icon icon="devicon:github" width="60" height="60"></iconify-icon></li>
+        <li class="brand-logo"><iconify-icon icon="logos:expo" width="60" height="60"></iconify-icon></iconify-icon>
+        </li>
+      </ul>
     </div>
     <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
   </section>
@@ -152,6 +177,7 @@
       <div class="nav-links-container">
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
