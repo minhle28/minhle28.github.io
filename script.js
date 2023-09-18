@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       jobName: "K&G Fashion Superstore",
-      date: "Sep 2019 - May 2023",
+      date: "Sep 2019 - Present",
       description: [
         "<b>Cashier</b> - Experienced in customer service, ensuring seamless transactions through efficient use of computerized point-of-sale systems, and maintaining accurate sales records. <br><b>Retailer</b> - Experienced in stock organization, and utilizing computer systems to ensure the availability of additional items in the receiving department. <br><b>Receiving</b> - Experienced in receiving, counting, and inspecting new goods deliveries. Sensor the items and prepare them for sale."
       ],
