@@ -51,6 +51,13 @@ nav {
   height: 17vh;
 }
 
+.nav-background {
+  background-color: rgb(243, 243, 243);
+  padding: 20px 60px 20px 60px;
+  border-radius: 15px;
+  z-index: 2;
+}
+
 .nav-links {
   gap: 7rem;
   list-style: none;
@@ -160,7 +167,7 @@ a:hover {
 
 /* SECTIONS */
 
-section {
+#about, #skills, #experience, #projects, #contact {
   padding-top: 10vh;
   margin: 0 10rem;
   box-sizing: border-box;
@@ -168,7 +175,6 @@ section {
 }
 
 #profile {
-  padding-top: 1vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;

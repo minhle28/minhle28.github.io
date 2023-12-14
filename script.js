@@ -67,6 +67,16 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
   const projects = [
     {
+      title: "Bad Habits Web",
+      imgSrc: "./assets/project-7.png",
+      githubUrl: "https://github.com/minhle28/Bad_Habits_Web",
+    },
+    {
+      title: "TrivItUp ",
+      imgSrc: "./assets/project-6.png",
+      githubUrl: "https://github.com/minhle28/TrivItUp",
+    },
+    {
       title: "OnlineShop",
       imgSrc: "./assets/project-5.png",
       githubUrl: "https://github.com/minhle28/Online_Shop",
