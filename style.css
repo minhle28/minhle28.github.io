@@ -167,7 +167,7 @@ a:hover {
 
 /* SECTIONS */
 
-#about, #skills, #experience, #projects, #contact {
+section {
   padding-top: 10vh;
   margin: 0 10rem;
   box-sizing: border-box;
@@ -175,6 +175,7 @@ a:hover {
 }
 
 #profile {
+  padding-bottom: 30vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
