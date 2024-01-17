@@ -13,13 +13,13 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       jobName: "VN Accounting, Tax, & Insurance Services",
       date: "Jan 2023 - Apr 2023",
-      description: "<b>Data Entry</b> - Experienced in QuickBooks with expertise in accurately recording deposits and writing checks.",
+      description: "<b>Data Entry</b> -  Using QuickBooks, ensure precise recording of deposits and checkwriting. Improved efficiency by 30% through streamlined data management practices, contributing to enhanced financial record accuracy.",
     },
     {
       jobName: "K&G Fashion Superstore",
       date: "Sep 2019 - Present",
       description: [
-        "<b>Cashier</b> - Experienced in customer service, ensuring seamless transactions through efficient use of computerized point-of-sale systems, and maintaining accurate sales records. <br><b>Retailer</b> - Experienced in stock organization, and utilizing computer systems to ensure the availability of additional items in the receiving department. <br><b>Receiving</b> - Experienced in receiving, counting, and inspecting new goods deliveries. Sensor the items and prepare them for sale."
+        "<b>Cashier</b> -  Proficient in customer service, optimizing transaction efficiency through computerized point-of-sale systems. Maintained accurate sales records, resulting in a 20% reduction in processing time. <br><b>Retailer</b> - Experienced in stock organization, and utilizing computer systems to ensure the availability of additional items in the receiving department. <br><b>Receiving</b> - Experienced in receiving, counting, and inspecting new goods deliveries. Sensor the items and prepare them for sale."
       ],
     },
     // Add more experience data as needed

@@ -512,6 +512,7 @@ article .icon {
 
 #job_experience #content {
   display: flex;
+  height: 20rem;
   width: 65%;
   background-color: #ffffff;
   border-radius: 10px;
