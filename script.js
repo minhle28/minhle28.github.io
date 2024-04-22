@@ -67,6 +67,21 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
   const projects = [
     {
+      title: "GSU ReviewHub",
+      imgSrc: "./assets/project-10.png",
+      githubUrl: "https://github.com/minhle28/GSU_ReviewHub",
+    },
+    {
+      title: "Handwritten Digit Prediction",
+      imgSrc: "./assets/project-9.png",
+      githubUrl: "https://github.com/minhle28/Handwritten_Digit_Prediction_Web",
+    },
+    {
+      title: "Visualock App",
+      imgSrc: "./assets/project-8.png",
+      githubUrl: "https://github.com/minhle28/SWE",
+    },
+    {
       title: "Bad Habits Web",
       imgSrc: "./assets/project-7.png",
       githubUrl: "https://github.com/minhle28/Bad_Habits_Web",
