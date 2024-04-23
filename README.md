@@ -6,7 +6,7 @@ https://minhle28.github.io/
 
 
 ## Web Screenshots
-![portfolio](https://github.com/minhle28/minhle28.github.io/assets/114270231/83453853-e0e3-4161-b300-a3f936a874a0)
+<img src="assets/web_screenshot.png" alt="Website Screenshot">
 
 
 
