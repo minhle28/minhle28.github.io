@@ -67,6 +67,11 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
   const projects = [
     {
+      title: "OWO Bot Discord - Auto Spam",
+      imgSrc: "./assets/project-11.png",
+      githubUrl: "https://github.com/minhle28/",
+    },
+    {
       title: "GSU ReviewHub",
       imgSrc: "./assets/project-10.png",
       githubUrl: "https://github.com/minhle28/GSU_ReviewHub",
